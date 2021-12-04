@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>30 Days with AhhThais</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+    </head>
+    <body>
+        <header class="header clear__fix">
+            <div class="header__title">
+                <a href="#" class="rm--a">AhhThais</a>
+            </div>
+            <div class="header__nav">
+                <ul>
+                    <li><a href="#" class="rm--a">Home</a></li>
+                    <li><a href="#about_me" class="rm--a">About me</a></li>
+                    <li><a href="#contact_me" class="rm--a">Contact me</a></li>
+                    <li><a href="#my_journey" class="rm--a">My journey</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="container">
+            <div class="container__header">
+                <div class="container__header--left-side col_half">
+                    <h2>
+                        Hi,
+                        <br>
+                        I'm <span class="container__header--left-side-title">Thai</span>!
+                    </h2>
+                </div>
+                <div class="container__header--right-side col_half"> 
+                </div>
+            </div>
+            <div class="container__body">
+                <div class="container__body--about-me" id="about_me">
+                    <h3>About me:</h3>
+                    <p>
+                        My name is Thai, currently a coding apprentice, I hope I can improve my skills on this journey.
+                        <br>
+                        This is AhhThais' 30 days coding journey, every day I will write a website with different topics and different difficulties, all of the above sites are written based on <a href="https://www.nodemy.vn"  class="rm--a">Nodemy's</a> video series.
+                        <br>
+                        *All the above code is not mistaken for commercial purposes, only for personal use
+                    </p>
+                </div>
+                <div class="container__body--contact-me" id="contact_me">
+                    <h3>Contact wiht me</h3>
+                    <label for="">
+                        <form action="./main.php" method="post" enctype="multipart/form-data" name="EmailFrom" id="contact__me-form" >
+                            <p>Name</p>
+                            <input type="text" placeholder="Your name...">
+                            Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+                            </textarea><br><br> <input type=”submit” value=”Submit”> 
+                        </form>
+                    </label>
+                </div>
+            </div>
+            <div class="container__end">
+                <div class="container__end--my-journey" id="my_journey">
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__main">
+                &copy; 2021 - AhhThais
+            </div>
+        </footer>     
+    </body>
+</html>

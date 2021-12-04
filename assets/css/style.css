@@ -1,0 +1,124 @@
+/* Common */
+.col_half {
+    width: 50%;
+    display: flex;
+}
+.rm--a {
+    text-decoration: none;
+    color: black;
+}
+.clear__fix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+:root {
+    --primary-color: #2E4C6D;
+    --second-color: #396EB0;
+    --third-color: #DADDFC;
+    --fourth-color: #FC997C;
+}
+html,
+body {
+    height: 100vh;
+    color: black;
+    box-sizing: border-box;
+}
+header,
+section, 
+footer {
+    margin: 10%;
+}
+/* Begin CSS */
+.header {
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 99px;
+    box-shadow: 0 10px 100px 0 rgba(0,0,0,.2);
+    background-color: white;
+}
+.header .header__title, .header .header__nav {
+    display: flex;
+    float: left;
+    width: 50%;
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+    padding: 0 50px;
+}
+.header .header__nav {
+    justify-content: right;
+}
+.header .header__nav ul {
+    display: flex;
+}
+.header__nav ul a {
+    margin-left: 20px;
+}
+.header__nav ul a:hover {
+    border-bottom: 2px solid var(--second-color);
+}
+
+/* Section */
+.container {
+    position: relative;
+}
+.container__header {
+    width: 100vw;
+    height: 50vh;
+}
+.container__header--left-side {
+    font-size: 10vw;
+    margin-left: 45px;
+}
+.container__header--left-side .container__header--left-side-title {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.container__header--right-side {
+
+}
+.container__body {
+    width: 100%;
+}
+.container__body--about-me {
+    width: 100%;
+    text-align: justify;
+}
+.container__body--about-me h3 {
+    font-size: 30px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 15px;
+}
+.container__body--about-me p {
+    margin: 20px 30px;
+    font-size: 30px;
+}
+.container__body--contact-me {
+
+}
+.container__end {
+    
+}
+.container__end--my-journey {
+
+}
+
+
+/* Footer */
+footer .footer__main{
+    height: 10vh;
+    background: var(--primary-color);
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
